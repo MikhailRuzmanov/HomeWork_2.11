@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SkyproSpringHomeWork211Application {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SkyproSpringHomeWork211Application.class, args);
 	}
 
