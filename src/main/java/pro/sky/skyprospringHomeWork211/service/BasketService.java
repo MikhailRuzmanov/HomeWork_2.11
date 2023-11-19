@@ -2,15 +2,18 @@ package pro.sky.skyprospringHomeWork211.service;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 @Service
-@Scope
+@SessionScope
 public class BasketService implements BasketServiceInterface{
 
-    List<Integer> basket;
+
+    public List<Integer> basket;
 
  public BasketService(List<Integer> basket) {
      this.basket = basket;
